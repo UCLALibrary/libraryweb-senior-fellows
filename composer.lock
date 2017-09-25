@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb9bf5371881af37b55b0817954896d3",
+    "content-hash": "3f35ae953c3536994fd4383bea5b3f6e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5559,7 +5559,7 @@
             "version": "dev-8.x-1.x",
             "source": {
                 "type": "git",
-                "url": "git@github.com:uclalibrary/sitefarm_seed.git",
+                "url": "ssh://git@github.com/uclalibrary/sitefarm_seed.git",
                 "reference": "0e336e565ae1eb7177ba9ecf05504e60aa9f8fec"
             },
             "dist": {
@@ -5681,12 +5681,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:uclalibrary/ucla_gateway.git",
-                "reference": "1d9c2d228c768cac5357e2fca1f0c983e8ed4e59"
+                "reference": "2cabbbf8a7f959a02301cb688053d56696f07756"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uclalibrary/ucla_gateway/zipball/1d9c2d228c768cac5357e2fca1f0c983e8ed4e59",
-                "reference": "1d9c2d228c768cac5357e2fca1f0c983e8ed4e59",
+                "url": "https://api.github.com/repos/uclalibrary/ucla_gateway/zipball/2cabbbf8a7f959a02301cb688053d56696f07756",
+                "reference": "2cabbbf8a7f959a02301cb688053d56696f07756",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -5695,12 +5695,16 @@
             ],
             "authors": [
                 {
+                    "name": "Elaine Blakeman",
+                    "email": "elaineblakeman@library.ucla.edu"
+                },
+                {
                     "name": "Casey Grzecka",
                     "email": "cgrzecka@library.ucla.edu"
                 }
             ],
             "description": "The UCLA Gateway theme.",
-            "time": "2017-09-19 19:06:36"
+            "time": "2017-09-25 22:49:35"
         },
         {
             "name": "webflo/drupal-finder",
