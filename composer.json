@@ -21,12 +21,12 @@
         {
           "type": "vcs",
           "no-api": true,
-          "url": "git@github.com:uclalibrary/sitefarm_seed.git"
+          "url": "ssh://git@sitefarm_seed.github.com/uclalibrary/sitefarm_seed.git"
         },
         {
           "type": "vcs",
           "no-api": true,
-          "url": "git@github.com:uclalibrary/ucla_gateway.git"
+          "url": "https://github.com/UCLALibrary/ucla_gateway.git"
         }
     ],
     "require": {
