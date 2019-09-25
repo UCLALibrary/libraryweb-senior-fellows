@@ -54,6 +54,9 @@ The program is a collaborative effort of the UCLA Library, UCLA Graduate School 
 This project uses the [UCLALibrary/ucla_gateway](https://github.com/uclalibrary/ucla_gateway), this is the process for updating that theme:
 
 1. Do theme work in UCLALibrary/ucla_gateway via fork and make PR upstream
+
+    1a. create and push UCLALibrary/ucla_gateway tag
+
 1. Merge PR on UCLALibrary/ucla_gateway
 1. Make theme update deployment PR in project repo
 
@@ -62,7 +65,7 @@ This project uses the [UCLALibrary/ucla_gateway](https://github.com/uclalibrary/
     1. Update your composer lock – `composer update <theme-repo-package>` eg:
 
         - `composer update uclalibrary/ucla_gateway`
-        - This will see the latest updates in you theme can put them into you composer.lock file
+        - This will see the latest updates _(from tag created in step **1a**)_ in you theme can put them into you composer.lock file
 
     1. Commit changes in composer lock – `git add composer.lock && git commit -m "updates to latest theme changes with that thing`
     1. Push to your fork and make PR
